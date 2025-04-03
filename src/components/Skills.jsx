@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Skills = () => {
   const skills = [
     { name: "C/C++", icon: "💻", description: "Efficient system programming" },
@@ -10,7 +9,9 @@ const Skills = () => {
     { name: "CSS", icon: "🎨", description: "Responsive styling and animations" },
     { name: "JavaScript", icon: "🟨", description: "Dynamic web development" },
     { name: "Git/GitHub", icon: "🐙", description: "Version control" },
-   
+    { name: "Python", icon: "🐍", description: "Versatile programming language" },
+    { name: "Flask", icon: "🔥", description: "Lightweight web framework" },
+    { name: "Blockchain", icon: "⛓", description: "Decentralized application development" },
   ];
 
   return (
